@@ -23,7 +23,7 @@ gem "elasticsearch-model", "~> 5.0.1"
 gem "elasticsearch-rails", "~> 5.0.1"
 gem "elasticsearch-persistence", "~> 5", require: "elasticsearch/persistence/model"
 gem 'therubyracer'
-gem 'impressionist'
+gem 'impressionist', "~> 1.6"
 
 
 group :development, :test do

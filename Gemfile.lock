@@ -396,7 +396,7 @@ DEPENDENCIES
   govuk_template
   guard
   guard-rspec
-  impressionist
+  impressionist (~> 1.6)
   jbuilder (~> 2.5)
   kaminari (~> 1.0.1)
   launchy
