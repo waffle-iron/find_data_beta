@@ -21,6 +21,8 @@ class Dataset
        :_index, :_type, :_id, :_score, :_source,
        :_version
 
+  is_impressionable
+
   class << self
     def from_json(raw_json)
       d = Dataset.new(raw_json.merge(raw_json['_source']))

@@ -2,6 +2,7 @@ class DatasetsController < ApplicationController
   include DatasetsHelper
   def show
     @dataset = current_dataset
+    impressionist(@dataset) # Record that this dataset has been looked at
   end
 
   private
